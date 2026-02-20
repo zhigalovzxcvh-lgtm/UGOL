@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default UGOL({
   base: './',
   plugins: [inspectAttr(), react()],
   resolve: {
